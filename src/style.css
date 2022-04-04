@@ -1,0 +1,150 @@
+*{
+    background-color: #70FCCA
+}
+
+img{
+    width: 16em;
+    border-radius: 1em;
+    position: relative;
+    top: 3em;
+    left: 2em;
+}
+
+h1{
+    font-family: cursive;
+    font-size: 3em;
+    position: relative;
+    left: 12em;
+    bottom: 5em;
+}
+p{
+    font-family: cursive;
+    font-size: 1em;
+    width:70em;
+    position: relative;
+    left: 20em;
+    bottom: 14em;
+}
+
+h2{
+    color:black;
+    text-align: center;
+    font-family: cursive;
+    font-size: 2em;
+    position: relative;
+    bottom: 6em;
+}
+
+#btncifrar{
+
+ color: white;
+ background-color: #f18ea5; 
+ font-size: 2em;
+ font-family: cursive; 
+ padding: 1em 4em;   
+ border-radius: 1em;   
+ text-decoration: none;
+ position: relative;
+ left: 7em;
+ bottom: 4.5em;
+}
+
+#btndescifrar{
+    color: white;
+    background-color: #f18ea5;
+    font-size: 2em;
+    font-family: cursive;
+    padding: 1em 3.2em;
+    border-radius: 1em;
+    text-decoration: none;
+    position: relative;
+    left: 24em;
+    bottom: 6em;
+}
+#clave{
+    display:flex;
+    justify-content:center;
+    position: relative;
+    top: 1em;
+}
+#range{
+    height: 4em;
+    width: 90em;
+    position: relative;
+    top: 2em;
+    left: 13em;
+    
+}
+
+#output{
+    font-family: cursive;
+    font-size: 1.5em;
+    position: relative;
+    bottom: 0.2em; 
+    left: 8em;
+    color:black;
+    background-color: #c4c4c4;
+    border-radius: 0.5em;
+}
+
+#mensaje{
+    background-color: #ffffff;
+    color: #F46789;
+    text-align: center;
+    font-size: 2em;
+    font-family: cursive;
+    padding: 1em;
+    border-radius: 1em;
+    position: relative;
+    left: 5em;
+    top: 1em;
+}
+#resultado{
+    background-color: white;
+    color: #F46789;
+    text-align: center;
+    font-size: 2em;
+    font-family: cursive;
+    padding: 1em;
+    border-radius: 1em;
+    position: relative;
+    left: 5em;
+    top: 2em;
+}
+#inicio{
+    background-color: #F46789;
+    font-size: 2em;
+    font-family: cursive;
+    color: white;
+    text-decoration: none;
+    padding: 0.3em;
+    position: relative;
+    bottom: 17em; 
+    left: 1em;
+    border-radius: 0.5em;
+}
+
+#inicio2{
+    background-color: #F46789;
+    font-size: 2em;
+    font-family: cursive;
+    color: white;
+    text-decoration: none;
+    padding: 0.3em;
+    position: relative;
+    top: 4em; 
+    right: 16em;
+    border-radius: 0.5em;
+}
+#enviar{
+    background-color: #F46789;
+    color: white;
+    font-size: 2em;
+    font-family: cursive;
+    position: relative;
+    left: 23em;
+    top: 2.5em;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 0.5em;
+}
