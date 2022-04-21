@@ -1,55 +1,72 @@
 *{
     background-color: #70FCCA
-}
-
-img{
+  }
+  
+  img{
     width: 16em;
     border-radius: 1em;
     position: relative;
     top: 3em;
     left: 2em;
-}
-
-h1{
+  }
+  
+  h1{
     font-family: cursive;
     font-size: 3em;
     position: relative;
-    left: 12em;
     bottom: 5em;
-}
-p{
+    left: 13em;
+  }
+  p{
     font-family: cursive;
     font-size: 1em;
     width:70em;
     position: relative;
     left: 20em;
     bottom: 14em;
-}
+  }
+  
+  h2{
+    color:black;
+    text-align: center;
+    font-family: cursive;
+    font-size: 2em;
+    
+  }
 
-h2{
+  #subtitulo{
     color:black;
     text-align: center;
     font-family: cursive;
     font-size: 2em;
     position: relative;
-    bottom: 6em;
-}
+    bottom: 7em;
+  }
 
-#btncifrar{
-
- color: white;
- background-color: #f18ea5; 
- font-size: 2em;
- font-family: cursive; 
- padding: 1em 4em;   
- border-radius: 1em;   
- text-decoration: none;
- position: relative;
- left: 7em;
- bottom: 4.5em;
-}
-
-#btndescifrar{
+  h3{
+    color:black;
+    text-align: center;
+    font-family: cursive;
+    font-size: 1.3em;
+    
+  }
+  
+  
+  #btncifrar{
+  
+  color: white;
+  background-color: #f18ea5; 
+  font-size: 2em;
+  font-family: cursive; 
+  padding: 1em 4em;   
+  border-radius: 1em;   
+  text-decoration: none;
+  position: relative;
+  left: 7em;
+  bottom: 4.5em;
+  }
+  
+  #btndescifrar{
     color: white;
     background-color: #f18ea5;
     font-size: 2em;
@@ -58,36 +75,53 @@ h2{
     border-radius: 1em;
     text-decoration: none;
     position: relative;
-    left: 24em;
-    bottom: 6em;
-}
-#clave{
+    left: 10em;
+    bottom: 4.5em;
+  }
+  #clave{
     display:flex;
     justify-content:center;
     position: relative;
-    top: 1em;
-}
-#range{
-    height: 4em;
-    width: 90em;
-    position: relative;
-    top: 2em;
-    left: 13em;
-    
-}
+    bottom: 0.5em;
+  }
 
-#output{
-    font-family: cursive;
-    font-size: 1.5em;
+  .slider {
+    -webkit-appearance: none;
+    width: 80%;
+    height: 15px;
+    border-radius: 5px;  
+    background-color: rgb(250, 218, 223);
+    outline: none;
+    opacity: 1;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
     position: relative;
-    bottom: 0.2em; 
-    left: 8em;
+    left: 12em;
+    bottom: 2em; 
+  }
+
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%; 
+    background-color:rgb(248, 170, 183);
+    cursor: pointer;
+  }
+  
+  #output{
+    font-family: cursive;
+    font-size: 2em;
+    position: relative;
+    bottom: 1em; 
+    left: 6em;
     color:black;
     background-color: #c4c4c4;
-    border-radius: 0.5em;
-}
-
-#mensaje{
+    border-radius: 0.8em;
+    
+  }
+  
+  #mensaje{
     background-color: #ffffff;
     color: #F46789;
     text-align: center;
@@ -97,9 +131,9 @@ h2{
     border-radius: 1em;
     position: relative;
     left: 5em;
-    top: 1em;
-}
-#resultado{
+    top: 0em;
+  }
+  #resultado{
     background-color: white;
     color: #F46789;
     text-align: center;
@@ -110,8 +144,8 @@ h2{
     position: relative;
     left: 5em;
     top: 2em;
-}
-#inicio{
+  }
+  #inicio{
     background-color: #F46789;
     font-size: 2em;
     font-family: cursive;
@@ -120,11 +154,11 @@ h2{
     padding: 0.3em;
     position: relative;
     bottom: 17em; 
-    left: 1em;
+    right: 42em;
     border-radius: 0.5em;
-}
-
-#inicio2{
+  }
+  
+  #inicio2{
     background-color: #F46789;
     font-size: 2em;
     font-family: cursive;
@@ -135,16 +169,44 @@ h2{
     top: 4em; 
     right: 16em;
     border-radius: 0.5em;
-}
-#enviar{
+  }
+
+  #enviar{
     background-color: #F46789;
     color: white;
     font-size: 2em;
     font-family: cursive;
     position: relative;
-    left: 23em;
-    top: 2.5em;
+    right: 17em;
+    top: 4em;
     border: none;
     padding: 5px 10px;
     border-radius: 0.5em;
-}
+  }
+  
+  #cifrar{
+    background-color: #F46789;
+    color: white;
+    font-size: 2em;
+    font-family: cursive;
+    position: relative;
+    right: 17em;
+    top: 1.6em;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 0.5em;
+  }
+  
+  #descifrar{
+    background-color: #F46789;
+    color: white;
+    font-size: 2em;
+    font-family: cursive;
+    position: relative;
+    right: 17em;
+    top: 1.6em;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 0.5em;
+  }
+  
