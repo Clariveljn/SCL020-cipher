@@ -53,6 +53,23 @@ La paleta de colores seleccionada es la siguiente:
 
 https://github.com/Clariveljn/SCL020-cipher/tree/main/Paleta.png
 
+### Primer Prototipo 
+
+El primer prootipo consistia en tres vista, la primera donde el usuario elige si quiere cifrar o descifrar un mensaje, 
+la degunda para cifrar un mensaje y la tercera para descifrarlo.
+
+Este prototipo fue creado utilizando FIGMA.
+https://www.figma.com/proto/7eq6Cja3qgm4pcoCn59xBQ/Primer-Prototipo-Cipher?node-id=156%3A3&starting-point-node-id=156%3A3
+
+
+### Segundo Prototipo 
+
+En el segundo prototipo se mantienen los tonos pastel, las tres vistas, se reubican botones y se les da el mismo estilo, 
+ademas, se modifica el estilo de las areas para ingresar texto, se incorporan nuevos botones y se decide incorporar un input 
+type range para seleccionar la clave.
+
+https://www.figma.com/proto/4xU3LcbSqmCYFkzcPVuNLx/prototipo2-Cipher?node-id=2%3A32&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=2%3A32
+
 
 
 
