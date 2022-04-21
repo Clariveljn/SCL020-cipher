@@ -5,19 +5,22 @@
     <title>Cipher Chat</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
+    <h2>Cipher Chat</h2>
+    <h3 id="clave">Deslice para Seleccionar clave y luego introduzca el mensaje</h3>
+    <input type="range" id="desplazamiento" class="slider" min="1" max="33" value="1" oninput="this.nextElementSibling.value = this.value"> 
+    <output id="output">1</output>
+    <textarea id="mensaje" placeholder="Ingrese mensaje que desea descifrar" rows="3" cols="60"></textarea>
+    <button id="descifrar" class="button button1">Descifrar</button>
+    <textarea id="resultado" placeholder="Resultado" rows="3" cols="60"></textarea>
 
-      <h2 id="clave">Seleccione número de posiciones a desplazar</h2>
-      <input type="range" id="range" min="1" max="30" value="1" oninput="this.nextElementSibling.value = this.value">
-      <output id="output">1</output>
-      <textarea id="mensaje" name="mensaje" placeholder="Ingrese mensaje que desea descifrar" rows="3" cols="60"></textarea> <br>
-      <textarea id="resultado" name="mensaje" placeholder="Resultado" rows="3" cols="60"></textarea>
+    <a href="index.html" id="inicio2">Inicio</a>
+    
+   
 
-    <br>
-
-      <a id="inicio" href="index.html">Inicio</a>
-
-
-    <script src="index.js" type="module"></script>
+    <script src="descifrar.js" type="module"></script>
+     
   </body>
-</html>
+  
+  </html>
